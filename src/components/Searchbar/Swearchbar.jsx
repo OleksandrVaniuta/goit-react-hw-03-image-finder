@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { FaBeer, FaSearch } from 'react-icons/fa';
+import { FaSearch } from 'react-icons/fa';
 import css from './Searchbar.module.css';
 
 function Searchbar({ onSubmit }) {
