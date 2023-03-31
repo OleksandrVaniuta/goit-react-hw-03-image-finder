@@ -7,7 +7,7 @@ function Searchbar({ onSubmit }) {
     <header className={css.Searchbar}>
       <form className={css.SearchForm} onSubmit={e => onSubmit(e)}>
         <button type="submit" className={css.SearchFormButton}>
-          <FaSearch />
+          <FaSearch size={25} />
           <span className={css.SearchFormButtonLabel}>Search</span>
         </button>
 
