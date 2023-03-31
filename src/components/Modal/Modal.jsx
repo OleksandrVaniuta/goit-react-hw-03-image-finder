@@ -33,7 +33,7 @@ class PopupWindow extends Component {
     return createPortal(
       <div className={css.Overlay} onClick={this.handleClick}>
         <div className={css.Modal}>
-          <img src={this.props.largeImageURL} alt="big photo" />
+          <img src={this.props.largeImageURL} alt="large" />
         </div>
       </div>,
       document.querySelector('#popup-root')

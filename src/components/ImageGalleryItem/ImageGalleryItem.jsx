@@ -23,7 +23,7 @@ class ImageGalleryItem extends Component {
       <li className={css.ImageGalleryItem} onClick={this.togleModal}>
         <img
           src={webformatURL}
-          alt="big photo"
+          alt="small"
           className={css.ImageGalleryItemImage}
         />
         {this.state.showModal && (
